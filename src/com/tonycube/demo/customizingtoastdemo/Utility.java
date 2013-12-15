@@ -18,11 +18,11 @@ public class Utility {
         text.setText(msg);
 
         Toast toast = new Toast(activity);
-        //¸m¤¤
+        //Center
         toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
-        //¾a¤W
+        //Top
         //toast.setGravity(Gravity.TOP, 0, 200);
-        //¾a¤U
+        //Bottom
         //toast.setGravity(Gravity.BOTTOM, 0, 100);
         
         toast.setDuration(Toast.LENGTH_LONG);
